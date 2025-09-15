@@ -54,11 +54,11 @@ body {
   max-width: 100%;
 }
 
-#Second {
+#Second, #Third {
     text-align: center;
 }
 
-#Second p {
+#Second p,  {
     margin: 0;
     padding: 0;
     font-size: 18px;
