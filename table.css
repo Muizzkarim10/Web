@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    width: 40%;
+  }
+  
+  caption {
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 2px solid black;
+    padding: 15px;
+  }
+  
+  th { background-color: red; }
+  .row1 { background-color: pink; }
+  .row2 {  background-color: brown; }
+  .row3 { background-color: lightgreen; }
+  .row4 { background-color: magenta; }
+  .merge-row { background-color: darkred;}
+  .merge-col { background-color: magenta; }
+  

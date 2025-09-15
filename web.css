@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10%;
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 45%;
+  margin-bottom: 200px;
+}
+
+.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3.5rem;
+  color: #e94c2d;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.store-buttons img {
+  width: 150px;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+}
+
+.store-buttons img:hover {
+  transform: scale(1.05);
+}
+
+.mockup img {
+  width: 600px;
+  max-width: 100%;
+}
+
+#Second {
+    text-align: center;
+}
+
+#Second p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Merging Rows and Columns</title>
+  <link rel="stylesheet" href="table.css">
+</head>
+<body>
+  <table>
+    <caption>merging rows and columns</caption>
+    <tr>
+      <th>FIRST COLUMN</th>
+      <th>SECOND COLUMN</th>
+      <th>THIRD COLUMN</th>
+    </tr>
+    <tr>
+      <td class="row1">first cell of row 1</td>
+      <td class="row1">second cell of row 1</td>
+      <td class="row1">third cell of row 1</td>
+    </tr>
+    <tr>
+      <td class="row2">first cell of row 2</td>
+      <td class="row2">second cell of row 2</td>
+      <td class="merge-row" rowspan="2">cell merged row wise</td>
+    </tr>
+    <tr>
+      <td class="row3">first cell of row 3</td>
+      <td class="row3">second cell of row 3</td>
+    </tr>
+    <tr>
+      <td class="merge-col" colspan="2">cells merged columnwise</td>
+      <td class="row4">second cell of row 4</td>
+    </tr>
+  </table>
+</body>
+</html>
