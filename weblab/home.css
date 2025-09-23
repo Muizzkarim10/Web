@@ -1,0 +1,29 @@
+#navbarNav {
+    justify-content: right;
+}
+
+#main {
+    background-image: url("images/hero-image.jpg");
+    background-size: cover;
+    height: 400px;    
+    align-items: center;
+}
+
+#main p{
+    padding: 50px 20rem;
+    margin: 0;
+}
+
+.card {
+    margin: 0 auto;
+    border-radius: none;
+}
+
+footer .card {
+    border: none;
+}
+
+footer .d-flex a {
+    text-decoration: none;
+    padding: 10px 0;
+}
