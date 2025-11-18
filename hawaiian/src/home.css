@@ -1,0 +1,66 @@
+html,
+body,
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* HERO SECTION */
+#main {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.608)),
+    url("assets/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+#main .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* HERO PARAGRAPH */
+#main p {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
+
+/* CARDS */
+.card {
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+/* FOOTER */
+footer .card {
+  border: none;
+}
+
+footer .d-flex a {
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 768px) {
+  #main {
+    padding: 1rem;
+    height: auto;
+  }
+
+  #main p {
+    padding: 0 1rem;
+  }
+}
