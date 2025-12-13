@@ -1,4 +1,4 @@
 # to-do
 
-backend ---> node server.js
-frontend ---> npm start dev
+<p>backend</p> ---> node server.js <br>
+<p>frontend</p> ---> npm start dev
