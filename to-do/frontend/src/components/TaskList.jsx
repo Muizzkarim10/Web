@@ -14,6 +14,8 @@ function TaskList({ tasks, API, reload, onEdit }) {
           <TaskItem
             key={task._id}
             task={task}
+            API={API}
+            reload={reload}
             onDelete={deleteTask}
             onEdit={onEdit}
           />

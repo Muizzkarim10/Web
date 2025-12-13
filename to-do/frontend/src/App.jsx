@@ -7,7 +7,7 @@ function App() {
   const API = "http://localhost:5000/api/tasks";
 
   const [tasks, setTasks] = useState([]);
-  const [editTask, setEditTask] = useState(null); // null = popup hidden
+  const [editTask, setEditTask] = useState(null);
 
   const loadTasks = async () => {
     try {
